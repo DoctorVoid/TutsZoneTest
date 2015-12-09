@@ -7,7 +7,7 @@
             templateUrl: "/App/register/register.template.html"
         })
         .otherwise({
-            templateUrl: "/App/main.template.html"
+            redirectTo: "/"
         });
     });
 })();
